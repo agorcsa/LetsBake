@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/widget_button"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/widget_button_height"
+        android:layout_marginLeft="@dimen/layout_margin"
+        android:layout_marginRight="@dimen/layout_margin"
+        android:background="@drawable/gradient"
+        android:fontFamily="sans-serif"
+        android:text="@string/start_app"
+        android:textColor="@android:color/white"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textStyle="bold" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ListView
+            android:id="@+id/recipe_widget_list_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <!-- will be displayed when the ListView will be empty-->
+        <TextView
+            android:id="@+id/recipe_widget_empty_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/gradient"
+            android:gravity="center"
+            android:text="@string/empty_widget"
+            android:textAllCaps="true"
+            android:textColor="@color/butter_cream"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+    </FrameLayout>
+</LinearLayout>

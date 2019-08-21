@@ -1,0 +1,15 @@
+<resources>
+    <!-- project specific dimensions-->
+    <dimen name="appbar_padding_top">8dp</dimen>
+    <dimen name="exoplayer_height_phone">200dp</dimen>
+    <dimen name="exoplayer_height_tablet">250dp</dimen>
+    <dimen name="circular_image">200dp</dimen>
+    <dimen name="cake_image">35dp</dimen>
+    <dimen name="recipe_image">140dp</dimen>
+    <dimen name="margin">15dp</dimen>
+    <dimen name="border_width">2dp</dimen>
+    <dimen name="layout_margin">5dp</dimen>
+    <dimen name="card_elevation">4dp</dimen>
+    <dimen name="card_corner_radius">4dp</dimen>
+    <dimen name="widget_button_height">50dp</dimen>
+</resources>

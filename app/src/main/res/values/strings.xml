@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">Let\'s Bake</string>
+    <string name="act_name_detail">Ingredients and Steps</string>
+    <string name="act_name_steps">Recipe Steps</string>
+    <string name="title_activity_tabbed">TabbedActivity</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="tab_text_1">Ingredients</string>
+    <string name="tab_text_2">Steps</string>
+    <string name="title_activity_tab">TabActivity</string>
+    <string name="title_step_list">Steps</string>
+    <string name="title_step_detail">Step Detail</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string-array name="recipes">
+        <item>Add to widget</item>
+        <item>Nutella Pie</item>
+        <item>Brownies</item>
+        <item>Yellow Cake</item>
+        <item>Cheesecake</item>
+    </string-array>
+    <string name="title_ingredient_list">Ingredients</string>
+    <string name="title_ingredient_detail">Ingredient Detail</string>
+    <!-- dummy mp3 and mp4 only for testing purpose -->
+    <string name="media_url_mp3">http://storage.googleapis.com/exoplayer-test-media-0/play.mp3</string>
+    <string name="media_url_mp4">http://download.blender.org/peach/bigbuckbunny_movies/BigBuckBunny_320x180.mp4</string>
+    <string name="title_stepingredient_list">StepsIngredients</string>
+    <string name="title_stepingredient_detail">StepIngredient Detail</string>
+    <string name="text_with_bullet">\u26AB</string>
+
+    <string name="previous_button">previous</string>
+    <string name="next_button">next</string>
+    <string name="empty_widget">empty</string>
+    <string name="start_app">Start Let\'s bake</string>
+
+    <string name="no_video">No video available</string>
+    <string name="click_on_step">To see the video, click on a recipe step</string>
+</resources>
